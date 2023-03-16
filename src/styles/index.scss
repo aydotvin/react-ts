@@ -1,0 +1,14 @@
+@use "./variables" as v;
+@import "./fonts";
+@import "./resets";
+@import "./utilities";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: map-get(v.$global, light, bodyBackgroundColor);
+  font-family: "poppins-regular";
+  font-size: 1.6rem;
+}

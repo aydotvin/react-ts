@@ -1,0 +1,22 @@
+.counter {
+  > *:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 500px;
+}
+
+.counterRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .count {
+    width: 50px;
+    text-align: center;
+  }
+}

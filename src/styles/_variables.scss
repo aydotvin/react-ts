@@ -1,0 +1,12 @@
+$global: (
+  "light": (
+    bodyBackgroundColor: rgb(246, 248, 251),
+    navbarGradient: linear-gradient(93deg, #3876c4 0%, #3c8cbe 100%),
+  ),
+  "dark": (
+    bodyBackgroundColor: rgb(44, 44, 44),
+    navbarGradient: linear-gradient(93deg, #3876c4 0%, #3c8cbe 100%),
+  ),
+  primaryAccentColor: #3876c4,
+  secondaryAccentColor: #9a9a9a,
+);

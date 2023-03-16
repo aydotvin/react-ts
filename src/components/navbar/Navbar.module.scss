@@ -1,0 +1,8 @@
+@use "@styles/_variables.scss" as v;
+
+.navbar {
+  background: map-get(v.$global, light, navbarGradient);
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}

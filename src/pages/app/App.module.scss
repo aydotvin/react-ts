@@ -1,0 +1,15 @@
+.app {
+  display: flex;
+	background-color: red;
+	min-height: 100dvh;
+  flex-direction: column;
+
+	main {
+		background-color: orange;
+		flex-grow: 1;
+	}
+}
+
+.image {
+  max-width: 50%;
+}

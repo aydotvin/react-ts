@@ -1,0 +1,11 @@
+.routerLink {
+  padding: 20px 10px;
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  &:hover {
+    background-color: lightblue;
+  }
+}

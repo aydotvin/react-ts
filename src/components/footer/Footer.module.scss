@@ -1,0 +1,13 @@
+@use "@styles/_variables.scss" as v;
+
+.footer {
+  background: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  gap: 5px;
+}
+
+.footerLink {
+  color: orange;
+}
