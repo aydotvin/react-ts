@@ -209,6 +209,15 @@
 - Create slice files and define and export reducer and async thunk methods/actions from `src/state/slices/moduleSlice.ts` via `index.ts` in the same `slices` folder.
 - Create selector files and define and export each selector from `src/state/selectors/moduleSelector.ts` via `index.ts` in the same `selectors` folder.
 
+## Stock redux setup:
+
+- Setup the component reducer to update the state as required for different action types using switch. This reducer returns the newly updated state for that component data.
+- Create constants for all the action types in an action types file for the component.
+- Create the component action creators file which contains all the functions that return the action type and the payload based on ui interactions.
+- Combine all the reducers from all components using `combineReducers` from `redux`.
+- Create a store using the combined reducer and wrap the app with react-redux provider and pass the store as a prop to it.
+- Use useDispatch and useSelector in the component to use and update the state data.
+
 ## Redux persist setup:
 
 - `npm install redux-persist`
